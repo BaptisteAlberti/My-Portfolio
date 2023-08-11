@@ -1,6 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>A bit about me !</h1> <br/>
+    <p>My name is Baptiste Alberti and Welcome to my personnal website. I am a junior developper from France.</p>
   </div>
 </template>
 
