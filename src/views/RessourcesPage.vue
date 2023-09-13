@@ -1,25 +1,24 @@
 <template>
+   <h1>This page presents my first Web productions !</h1><br>
   <body>
-    <div class="RessourcesPage">
-      <h1>This page presents my first Web productions !</h1><br>
 
-        <a href="../public/Images/CV/CV.png" target="_blank">My Curriculum Vitae</a><br>
-        <p>This project was created in 2023 and is used HTML 5 and CSS 3.</p>
-
-        <a href="../public/Images/Cahier des charges/Cahier des charges rendu 1.pdf" target="_blank">My first production specification</a><br>
-
-        <a href="../public/Images/Dynamisme site web/Dynamiser un espace commentaire.png" target="_blank">My first dynamic Website</a><br>
+    <div class="RessourcesPage"><br>
+     
+      <a href="../public/Images/CV/CV.png" target="_blank">My Curriculum Vitae</a><br>
+      <p>This project was created in 2023 and use HTML 5 and CSS 3.</p>
+    </div><br>
+    <div><br>
+      <a href="../public/Images/Cahier des charges/Cahier des charges rendu 1.pdf" target="_blank">My first production specification</a><br>
+      <p>This project was created in 2023 and use PDF.</p>
+    </div><br>
+    <div><br>
+      <a href="../public/Images/Dynamisme site web/Dynamiser un espace commentaire.png" target="_blank">My first dynamic Website</a><br>
+      <p>This project was created in 2023 and use HTML 5, CSS 3 and JavaScript.</p>
     </div>
   </body>
   </template>
   
   <style>
-  @media (min-width: 1024px) {
-    .RessourcesPage {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-    }
-  }
+  
   </style>
   
