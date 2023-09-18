@@ -21,7 +21,13 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <footer>
-    <a href=""></a>
+    <a href="https://twitter.com/MrMijumaru" target="_blank"><img src="../public/Images/x-twitter.svg"></a>
+    <a href="https://www.facebook.com/LeGemeaux" target="_blank"><img src="../public/Images/f-facebook.svg"></a>
+    <a href="https://www.instagram.com/benvolio_liberta/" target="_blank"><img src="../public/Images/i-instagram.svg"></a>
+    <a href="https://discord.com/channels/1087359142102061096/1087365206222569522" target="_blank"><img src="../public/Images/d-discord.svg"></a>
+    <a href="https://www.youtube.com/channel/UCiJNHnKjw3zs4JHkkbrhEbg" target="_blank"><img src="../public/Images/y-youtube.svg"></a> 
+    <a href="https://github.com/BaptisteAlberti" target="_blank"><img src="../public/Images/g-github.svg"></a>
+    <a href="https://www.linkedin.com/in/baptiste-alberti-b7766a285/" target="_blank"><img src="../public/Images/l-linkedin.svg"></a>
   </footer>
   <RouterView />
 </template>
