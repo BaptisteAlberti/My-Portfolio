@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/RessourcesPage',
       name: 'Ressources',
       component: () => import('../views/RessourcesPage.vue')
+    },
+    {
+      path: '/404Page',
+      name: '404Page',
+      component: () => import('../views/404Page.vue')
     }
   ]
 })
