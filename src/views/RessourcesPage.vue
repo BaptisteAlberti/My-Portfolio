@@ -20,8 +20,13 @@
 </template>
   
   <style>
-     h1 {
+    h1 {
     color: red;
+    }
+
+    img {
+      width: 5%;
+      height: 5%;
     }
   </style>
   
