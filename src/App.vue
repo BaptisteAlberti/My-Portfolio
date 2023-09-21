@@ -96,10 +96,14 @@ nav a:first-of-type {
   }
 }
 
-.footer {
-  width: 10%;
-  height: 10%;
+footer {
+  color: brown;
+  width: 20%;
+  height: 20%;
   display: flex;
+  place-items: flex-start;
+  flex-wrap: wrap;
+  flex-basis: content;
   align-items: center;
   justify-items: center;
 }
