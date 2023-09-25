@@ -2,14 +2,13 @@
     <header>
         <nav>
             <ul>
-                <RouterLink to="/HomeView"><img src="../components/home.png" alt="Logo bouton acceuil"><p>Home</p></RouterLink>
+                <RouterLink to="/AboutView"><img src="../components/home.png" alt="Logo bouton acceuil"><p>Home</p></RouterLink>
                 <RouterLink to="/RessourcesPage"><img src="../components/projets.png" alt=""><p>Projects</p></RouterLink>
-                <RouterLink to="/contact"><img src="../components/mail.png" alt=""><p>Contact</p></RouterLink>
+                <RouterLink to="/ContactPage"><img src="../components/mail.png" alt=""><p>Contact</p></RouterLink>
                 <RouterView />
             </ul>
         </nav>
     </header>
-
 </template>
 
 <script setup>

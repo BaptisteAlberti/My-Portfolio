@@ -22,7 +22,9 @@
 
 <style lang="scss" scoped>
 footer{
-    height: 100px;
+    position: fixed;
+    height: auto;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
