@@ -23,9 +23,9 @@ const router = createRouter({
       component: () => import('../views/RessourcesPage.vue')
     },
     {
-      path: '/404Page',
-      name: '404Page',
-      component: () => import('../views/404Page.vue')
+      path: '/ContactPage',
+      name:  'Contact',
+      component: () => import('../views/ContactPage.vue')
     }
   ]
 })

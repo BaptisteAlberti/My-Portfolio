@@ -1,11 +1,9 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <Header-comp />
+  <main>
+    <router-view></router-view>
+    <Footer-comp />
+  </main>
 
     <div class="wrapper">
       <HelloWorld msg="My Portfolio" />
@@ -14,113 +12,21 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/RessourcesPage">Ressources</RouterLink>
-        <RouterLink to="/404Page">404 Page</RouterLink>
         <RouterView />
       </nav>
 
     </div>
-  </header>
-
-  <footer class="footer">
-    <a href="https://twitter.com/MrMijumaru" target="_blank"><img src="../public/Images/x-twitter.svg"></a><br>
-    <a href="https://www.facebook.com/LeGemeaux" target="_blank"><img src="../public/Images/f-facebook.svg"></a><br>
-    <a href="https://www.instagram.com/benvolio_liberta/" target="_blank"><img src="../public/Images/i-instagram.svg"></a><br>
-    <a href="https://discord.com/channels/1087359142102061096/1087365206222569522" target="_blank"><img src="../public/Images/d-discord.svg"></a><br>
-    <a href="https://www.youtube.com/channel/UCiJNHnKjw3zs4JHkkbrhEbg" target="_blank"><img src="../public/Images/y-youtube.svg"></a><br>
-    <a href="https://github.com/BaptisteAlberti" target="_blank"><img src="../public/Images/g-github.svg"></a><br>
-    <a href="https://www.linkedin.com/in/baptiste-alberti-b7766a285/" target="_blank"><img src="../public/Images/l-linkedin.svg"></a><br>
-  </footer>
-
 </template>
 
+<script setup>
+  import HeaderComp from './views/Header-comp.vue';
+  import FooterComp from './views/Footer-Comp.vue';
+  import ContactPage from './views/ContactPage.vue';
+  import HomeView from "./views/HomeView.vue";
+  import BoutonRetourHaut from './views/BoutonRetourHaut.vue';
+  import Bouton_GlobalVue from './views/Bouton_Global.vue';
+</script>
+
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
-
-footer {
-  /*color: brown;
-  width: 20%;
-  height: 20%;
-  display: flex;
-  place-items: flex-start;
-  flex-wrap: wrap;
-  flex-basis: content;
-  align-items: center;
-  justify-items: center;*/
-  background-color: orange;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-
-footer a {
-  background-color: red;
-  display: flex;
-}
-
-footer img {
-  width: 32px;
-  height: 32px;
-}
 </style>

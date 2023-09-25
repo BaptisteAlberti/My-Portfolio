@@ -3,6 +3,7 @@
   <div class="about">
     <p>My name is Baptiste Alberti and Welcome to my personnal website. I am a junior developper from France. <br/>
     I am a former literature teacher and I wanted to become a Website Developer because I love digital stuffs and social medias. <br/>
+    This website presents my first projects build with VisualStudioCode. <br/>
     You can catch me on 
     <a href="https://twitter.com/MrMijumaru" target="_blank">Twitter</a>,
     <a href="https://www.facebook.com/LeGemeaux" target="_blank">Facebook</a>, 
