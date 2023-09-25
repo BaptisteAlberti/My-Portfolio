@@ -97,7 +97,7 @@ nav a:first-of-type {
 }
 
 footer {
-  color: brown;
+  /*color: brown;
   width: 20%;
   height: 20%;
   display: flex;
@@ -105,6 +105,22 @@ footer {
   flex-wrap: wrap;
   flex-basis: content;
   align-items: center;
-  justify-items: center;
+  justify-items: center;*/
+  background-color: orange;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+footer a {
+  background-color: red;
+  display: flex;
+}
+
+footer img {
+  width: 32px;
+  height: 32px;
 }
 </style>
